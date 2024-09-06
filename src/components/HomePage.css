@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-section {
+  position: relative;
+  background-image: ('E:\Frithcode Training Programme\Project school\abc-school\public\work.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+  color: #4B0082; /* Purple color */
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 20px;
+}
+
+.header-title {
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.header-subtitle {
+  margin-top: 16px;
+  font-size: 2vw;
+}
+
+/* Image Links Section */
+.image-links-section {
+  background-color: #f0f0f0;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-link {
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.image-link-text {
+  color: #4B0082;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.image-link-text:hover {
+  color: black;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .image-links-section {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-title {
+    font-size: 6vw;
+  }
+
+  .header-subtitle {
+    font-size: 4vw;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+  }
+}

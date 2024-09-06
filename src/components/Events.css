@@ -1,0 +1,36 @@
+.events-section {
+  padding: 50px 70px;
+}
+
+.events-section h2 {
+  color: rgba(22, 0, 65, 1);
+  margin-bottom: -80px;
+  font-size: 2.5rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+
+.event-item {
+  position: relative;
+  width: 100%;
+  padding-top: 150%; /* Aspect ratio for portrait images */
+  overflow: hidden;
+}
+
+.event-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: 100%;
+  transform: translate(-50%, -30%);
+  object-fit: cover;
+  object-position: center;
+}
