@@ -1,0 +1,28 @@
+.imageGrid {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.image {
+  aspect-ratio: 1.22;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .column {
+    width: 100%;
+  }
+
+  .image {
+    margin-top: 40px;
+  }
+}

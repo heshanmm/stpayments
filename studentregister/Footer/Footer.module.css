@@ -1,0 +1,103 @@
+.footer {
+  background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/f01eb93c43b312d78466cea7b663d6e7d5a4321eea86f077fb8dceaf9864ab74?placeholderIfAbsent=true&apiKey=170b590e187e4beabe3f2ef7100234b5');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 30px 64px;
+  font-family: Inter, sans-serif;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1116px;
+  margin: 0 auto;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logoPlaceholder {
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 50%;
+  width: 230px;
+  height: 227px;
+  margin-bottom: 20px;
+}
+
+.address {
+  color: rgba(137, 208, 248, 1);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.directionsLink,
+.contactLink {
+  color: rgba(246, 252, 255, 1);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.schoolContact {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.phoneNumber,
+.emailLink {
+  color: #fff;
+}
+
+.quickLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.quickLinksTitle {
+  color: rgba(246, 252, 255, 1);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.linksList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linksList li {
+  margin-bottom: 10px;
+}
+
+.linksList a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 54px;
+  font-size: 13px;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding: 30px 20px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+  }
+
+  .quickLinks {
+    margin-top: 40px;
+  }
+}

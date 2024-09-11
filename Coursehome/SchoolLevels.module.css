@@ -1,0 +1,16 @@
+.schoolLevels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1312px;
+  margin: 32px auto;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .schoolLevels {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 32px 20px;
+  }
+}

@@ -1,0 +1,33 @@
+.navigationPillList {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 1125px;
+  align-items: center;
+  gap: 8px;
+  color: #160041;
+  justify-content: center;
+  flex-wrap: wrap;
+  font: 24px Inter, sans-serif;
+}
+
+.navigationPill {
+  -webkit-text-stroke: 1px #6250a7;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #6250a7;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+}
+
+@media (max-width: 991px) {
+  .navigationPillList {
+    max-width: 100%;
+  }
+
+  .navigationPill {
+    white-space: normal;
+  }
+}

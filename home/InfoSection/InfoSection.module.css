@@ -1,0 +1,46 @@
+.infoSection {
+  background-color: #d9d9d9;
+  width: 100%;
+  padding: 74px 67px 115px;
+}
+
+.infoLinks {
+  display: flex;
+  margin-top: 26px;
+  width: 100%;
+  max-width: 631px;
+  gap: 40px 100px;
+  color: #160041;
+  flex-wrap: wrap;
+  font: 400 24px/1 Inter, sans-serif;
+}
+
+.infoLink {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.linkText {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #6250a7;
+  border: 1px solid #6250a7;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.linkIcon {
+  aspect-ratio: 1.27;
+  object-fit: contain;
+  width: 33px;
+}
+
+@media (max-width: 991px) {
+  .infoSection {
+    padding: 74px 20px 115px;
+  }
+
+  .infoLinks {
+    max-width: 100%;
+  }
+}

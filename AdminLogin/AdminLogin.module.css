@@ -1,0 +1,363 @@
+.adminLogin {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #cdc1d6;
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 61px 0px;
+  padding-top: 1px;
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 10px 80px;
+  }
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: #000;
+  font: 400 36px/1 Inter, sans-serif;
+}
+
+.logoCircle {
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contactButton {
+  border-radius: 10px;
+  background-color: rgba(20, 12, 115, 0.96);
+  color: #fff;
+  padding: 17px 38px;
+  border: none;
+  cursor: pointer;
+  font: 700 16px/1 Inter, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .contactButton {
+    padding: 15px 20px;
+  }
+}
+
+.phoneContainer {
+  display: flex;
+  margin-top: 10px;
+  gap: 23px;
+  color: #000;
+  align-items: center;
+}
+
+.phoneIcon {
+  width: 33px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.phoneNumber {
+  font: 400 14px/1 Inter, sans-serif;
+}
+
+.mainContent {
+  width: 100%;
+  max-width: 1351px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .mainContent {
+    max-width: 100%;
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .contentWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.loginImage {
+  width: 55%;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 991px) {
+  .loginImage {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 40px;
+  }
+}
+
+.loginFormSection {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+}
+
+@media (max-width: 991px) {
+  .loginFormSection {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 40px;
+  }
+}
+
+.loginTitle {
+  color: #000;
+  font: 500 40px/1 'Abhaya Libre Medium', sans-serif;
+  margin-bottom: 39px;
+}
+
+.userTypeSelector {
+  display: flex;
+  width: 425px;
+  max-width: 100%;
+  text-align: center;
+  font: 500 14px/20px Roboto, sans-serif;
+  letter-spacing: 0.1px;
+}
+
+@media (max-width: 991px) {
+  .userTypeSelector {
+    width: 100%;
+  }
+}
+
+.userTypeButton {
+  flex: 1;
+  min-height: 62px;
+  border: 1px solid #79747e;
+  background-color: #e8def8;
+  color: #000;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.userTypeButton:first-child {
+  border-radius: 100px 0 0 100px;
+}
+
+.userTypeButton:last-child {
+  border-radius: 0 100px 100px 0;
+}
+
+.userTypeButton.active {
+  background-color: #140c73;
+  color: #fff;
+}
+
+.loginForm {
+  width: 100%;
+  max-width: 420px;
+  margin-top: 46px;
+}
+
+.inputGroup {
+  margin-bottom: 22px;
+}
+
+.inputLabel {
+  display: block;
+  color: #252a31;
+  font: 800 32px/1 'Abhaya Libre ExtraBold', sans-serif;
+  margin-bottom: 4px;
+}
+
+.inputField {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #bac7d5;
+  background-color: #e8edf1;
+  padding: 12px;
+  font: 400 16px/1 Inter, sans-serif;
+}
+
+.rememberMe {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.checkboxLabel {
+  color: #3b3624;
+  font: 500 20px/1 'Abhaya Libre Medium', sans-serif;
+}
+
+.signInButton {
+  width: 100%;
+  border-radius: 6px;
+  background-color: #140c73;
+  color: #fff;
+  text-align: center;
+  padding: 15px 16px;
+  border: none;
+  cursor: pointer;
+  font: 700 32px/1 'Abhaya Libre', sans-serif;
+}
+
+.signupPrompt {
+  color: #000;
+  font: 700 24px/1 Inter, sans-serif;
+  margin-top: 36px;
+  text-align: center;
+}
+
+.signupLink {
+  color: #140c73;
+  text-decoration: underline;
+}
+
+.footer {
+  background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/c01af09f443fe533d6f46822031107ced4a5fa763433eb0f45f4bab0d2c982c8?placeholderIfAbsent=true&apiKey=170b590e187e4beabe3f2ef7100234b5');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 29px 64px;
+  margin-top: 40px;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding: 29px 20px;
+  }
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1116px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.schoolLogo {
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  width: 230px;
+  height: 227px;
+  margin-bottom: 20px;
+}
+
+.schoolAddress {
+  color: #89d0f8;
+  font: 400 14px/1.5 Inter, sans-serif;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+
+.directionsLink,
+.contactLink {
+  color: #f6fcff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.contactDetails {
+  margin-bottom: 16px;
+}
+
+.highlight {
+  color: #fff;
+}
+
+.quickLinksNav {
+  margin-top: 20px;
+}
+
+.quickLinksTitle {
+  color: #f6fcff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.quickLinksList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quickLinksList li {
+  margin-bottom: 10px;
+}
+
+.quickLinksList a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footerDivider {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+@media (max-width: 991px) {
+  .footerBottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.credits {
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .credits {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
