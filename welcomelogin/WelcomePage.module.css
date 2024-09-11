@@ -1,0 +1,21 @@
+.welcomePage {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.mainContent {
+  align-self: center;
+  display: flex;
+  margin-top: 26px;
+  width: 100%;
+  max-width: 1186px;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .mainContent {
+    max-width: 100%;
+  }
+}

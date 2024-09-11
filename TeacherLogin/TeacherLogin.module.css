@@ -1,0 +1,61 @@
+.teacherLogin {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.mainContent {
+  width: 100%;
+  max-width: 1364px;
+  margin: 0 auto;
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .contentWrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+}
+
+.imageColumn {
+  width: 55%;
+}
+
+@media (max-width: 991px) {
+  .imageColumn {
+    width: 100%;
+  }
+}
+
+.loginImage {
+  aspect-ratio: 1.07;
+  object-fit: contain;
+  width: 100%;
+  flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+  .loginImage {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.formColumn {
+  width: 45%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .formColumn {
+    width: 100%;
+    margin-left: 0;
+  }
+}
