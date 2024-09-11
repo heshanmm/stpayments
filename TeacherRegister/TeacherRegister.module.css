@@ -1,0 +1,442 @@
+.header {
+  background-color: #cdc1d6;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 13px 61px;
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 0 20px;
+  }
+}
+
+.logo {
+  display: flex;
+  gap: 24px;
+  color: #000;
+  font: 400 36px/36px Inter, sans-serif;
+}
+
+.logoIcon {
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+}
+
+.schoolName {
+  margin: auto 0;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  font: 400 14px/1 Inter, sans-serif;
+}
+
+.contactButton {
+  border-radius: 10px;
+  background-color: rgba(20, 12, 115, 0.96);
+  color: #fff;
+  padding: 17px 37px;
+}
+
+@media (max-width: 991px) {
+  .contactButton {
+    padding: 0 20px;
+  }
+}
+
+.phoneWrapper {
+  display: flex;
+  margin-top: 11px;
+  gap: 20px;
+  color: #000;
+}
+
+.phoneIcon {
+  aspect-ratio: 1.1;
+  object-fit: contain;
+  width: 33px;
+}
+
+.phoneNumber {
+  margin: auto 0;
+}
+
+.mainContent {
+  width: 100%;
+  max-width: 1285px;
+}
+
+@media (max-width: 991px) {
+  .mainContent {
+    max-width: 100%;
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .contentWrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+}
+
+.imageColumn {
+  width: 61%;
+}
+
+@media (max-width: 991px) {
+  .imageColumn {
+    width: 100%;
+  }
+}
+
+.mainImage {
+  aspect-ratio: 1.06;
+  object-fit: contain;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .mainImage {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.formColumn {
+  width: 39%;
+}
+
+@media (max-width: 991px) {
+  .formColumn {
+    width: 100%;
+  }
+}
+
+.formWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+@media (max-width: 991px) {
+  .formWrapper {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.formTitle {
+  color: #000;
+  align-self: center;
+  font: 500 40px/0.5 'Abhaya Libre Medium', sans-serif;
+}
+
+.segmentedButtons {
+  display: flex;
+  margin-top: 36px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.1px;
+  font: 500 14px/20px Roboto, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .segmentedButtons {
+    max-width: 100%;
+  }
+}
+
+.segmentButton {
+  display: flex;
+  min-height: 62px;
+  justify-content: center;
+  flex: 1;
+  padding: 4px 0;
+}
+
+.segmentContainer {
+  background-color: #e8def8;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  flex: 1;
+  border: 1px solid #79747e;
+}
+
+.segmentStateLayer {
+  align-self: stretch;
+  width: 100%;
+  gap: 8px;
+  flex: 1;
+  height: 100%;
+  padding: 10px 12px;
+}
+
+.segmentStart {
+  border-radius: 100px 0 0 100px;
+}
+
+.segmentMiddle {
+  background-color: #fff;
+  color: #0a0000;
+}
+
+.segmentEnd {
+  border-radius: 0 100px 100px 0;
+}
+
+.inputField {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 21px;
+}
+
+.inputLabel {
+  align-self: start;
+  color: #252a31;
+  padding: 0 2px;
+  font: 800 32px/1 'Abhaya Libre ExtraBold', sans-serif;
+}
+
+.inputWrapper {
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #bac7d5;
+  background-color: #e8edf1;
+  display: flex;
+  margin-top: 4px;
+  width: 100%;
+  gap: 8px;
+  overflow: hidden;
+  padding: 12px;
+}
+
+.inputInner {
+  align-self: stretch;
+  display: flex;
+  min-height: 20px;
+  min-width: 240px;
+  width: 100%;
+  flex: 1;
+  margin: auto 0;
+}
+
+.submitButton {
+  border-radius: 6px;
+  background-color: #140c73;
+  min-height: 49px;
+  color: #fff;
+  text-align: center;
+  padding: 15px 16px;
+  font: 700 32px/1 'Abhaya Libre', sans-serif;
+  margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .submitButton {
+    margin-right: 10px;
+  }
+}
+
+.footer {
+  position: relative;
+  min-height: 365px;
+  width: 100%;
+  padding: 30px 64px;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding: 0 20px;
+  }
+}
+
+.footerBackground {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.footerContent {
+  position: relative;
+  margin-left: 61px;
+  width: 100%;
+  max-width: 1116px;
+}
+
+@media (max-width: 991px) {
+  .footerContent {
+    max-width: 100%;
+  }
+}
+
+.footerColumns {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .footerColumns {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+}
+
+.footerColumn {
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .footerColumn {
+    width: 100%;
+  }
+}
+
+.schoolLogo {
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  width: 230px;
+  height: 227px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .schoolLogo {
+    margin-top: 40px;
+  }
+}
+
+.contactDetails {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: start;
+  color: #89d0f8;
+  font: 700 14px/14px Inter, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .contactDetails {
+    margin-top: 40px;
+  }
+}
+
+.address {
+  width: 240px;
+}
+
+.directions {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 11px;
+}
+
+.officeInfo {
+  font-weight: 400;
+  align-self: stretch;
+  margin-top: 53px;
+}
+
+@media (max-width: 991px) {
+  .officeInfo {
+    margin-top: 40px;
+  }
+}
+
+.contactLink {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.quickLinks {
+  display: flex;
+  gap: 40px 100px;
+  align-self: stretch;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  margin: auto 0;
+}
+
+@media (max-width: 991px) {
+  .quickLinks {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.linkList {
+  color: #fff;
+  font-size: 13px;
+  line-height: 26px;
+}
+
+.linkTitle {
+  color: #f6fcff;
+  font-size: 16px;
+  align-self: start;
+}
+
+.footerLogo {
+  aspect-ratio: 1000;
+  object-fit: contain;
+  width: 100%;
+  margin-top: 54px;
+}
+
+@media (max-width: 991px) {
+  .footerLogo {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.footerBottom {
+  align-self: center;
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  max-width: 1262px;
+  gap: 20px;
+  color: #fff;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font: 400 13px/2 Inter, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .footerBottom {
+    max-width: 100%;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

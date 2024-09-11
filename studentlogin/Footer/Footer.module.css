@@ -1,0 +1,109 @@
+.footer {
+  background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/0052b51e86b3f95416e210dc9aae4b6282655bd638403f6702d8ff00999a15e0?placeholderIfAbsent=true&apiKey=170b590e187e4beabe3f2ef7100234b5');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 30px 64px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1116px;
+  margin: 0 auto;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoPlaceholder {
+  width: 230px;
+  height: 227px;
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.address {
+  color: rgba(137, 208, 248, 1);
+  font: 400 14px/1.5 Inter, sans-serif;
+  margin-bottom: 10px;
+}
+
+.directionsLink,
+.contactLink {
+  color: rgba(246, 252, 255, 1);
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.schoolOffice {
+  margin-bottom: 10px;
+}
+
+.phoneNumber,
+.email {
+  color: #fff;
+}
+
+.quickLinks {
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+}
+
+.quickLinksTitle {
+  color: rgba(246, 252, 255, 1);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.linkList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.linkList li {
+  margin-bottom: 5px;
+}
+
+.linkList a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.bottomBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 13px;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding: 30px 20px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+  }
+
+  .quickLinks {
+    margin-top: 20px;
+  }
+
+  .bottomBar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .credits {
+    margin-top: 10px;
+  }
+}

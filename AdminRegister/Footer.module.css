@@ -1,0 +1,116 @@
+.footer {
+  background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/0052b51e86b3f95416e210dc9aae4b6282655bd638403f6702d8ff00999a15e0?placeholderIfAbsent=true&apiKey=170b590e187e4beabe3f2ef7100234b5');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 30px 64px;
+  font-family: Inter, sans-serif;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1116px;
+  margin: 0 auto;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logoCircle {
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  width: 230px;
+  height: 227px;
+  margin-bottom: 20px;
+}
+
+.address {
+  color: #89d0f8;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.directionsLink,
+.contactLink {
+  color: #f6fcff;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.contactDetails {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contactDetails a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.quickLinksNav {
+  text-align: right;
+}
+
+.quickLinksTitle {
+  color: #f6fcff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.quickLinksList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quickLinksList li {
+  margin-bottom: 5px;
+}
+
+.quickLinksList a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 26px;
+}
+
+.footerDivider {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.copyrightSection {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding: 30px 20px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactSection,
+  .quickLinksNav {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .copyrightSection {
+    flex-direction: column;
+    align-items: center;
+  }
+}

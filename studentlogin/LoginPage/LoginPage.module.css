@@ -1,0 +1,35 @@
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 65px;
+  
+}
+
+.imageContainer {
+  width: 55%;
+}
+
+.schoolImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 991px) {
+  .mainContent {
+    flex-direction: column;
+    padding: 4px 2px;
+  }
+
+  .imageContainer {
+    width: 120%;
+    padding-left: 50px;
+    
+  }
+}

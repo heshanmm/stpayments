@@ -1,0 +1,51 @@
+.schoolLevelCard {
+  border-radius: 10px;
+  background-color: #d4d2f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 13px 24px 35px;
+  flex: 1;
+}
+
+.levelImage {
+  width: 100%;
+  border-radius: 10px;
+  aspect-ratio: 0.85;
+  object-fit: contain;
+}
+
+.levelTitle {
+  font-size: 50px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 21px;
+  text-align: center;
+}
+
+.viewDetailsButton {
+  border-radius: 5px;
+  background-color: #a6a0ff;
+  margin-top: 57px;
+  width: 193px;
+  font-size: 24px;
+  padding: 17px 25px;
+  border: none;
+  cursor: pointer;
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  .schoolLevelCard {
+    margin-bottom: 30px;
+  }
+
+  .levelTitle {
+    font-size: 40px;
+  }
+
+  .viewDetailsButton {
+    margin-top: 40px;
+    padding: 17px 20px;
+  }
+}

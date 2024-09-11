@@ -1,0 +1,70 @@
+.header {
+  background-color: rgba(205, 193, 214, 1);
+  display: flex;
+  width: 91.95%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 61px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo {
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+}
+
+.schoolName {
+  color: rgba(0, 0, 0, 1);
+  font: 400 36px/36px Inter, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contactButton {
+  border-radius: 10px;
+  background-color: rgb(20, 12, 115, 0.96);
+  color: #fff;
+  padding: 17px 38px;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+.phoneContainer {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-top: 4px;
+}
+
+.phoneIcon {
+  width: 33px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.phoneNumber {
+  color: #000;
+  font: inherit;
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 12px 20px;
+  }
+
+  .contactButton {
+    padding: 17px 20px;
+  }
+}

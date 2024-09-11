@@ -1,0 +1,48 @@
+.eventsSection {
+  margin-top: 154px;
+  width: 100%;
+  max-width: 1204px;
+}
+
+.eventsTitle {
+  color: #160041;
+  font: 700 64px/1 Inter, sans-serif;
+  margin-bottom: 124px;
+}
+
+.eventsGrid {
+  display: flex;
+  gap: 20px;
+}
+
+.eventItem {
+  flex: 1;
+}
+
+.eventImage {
+  aspect-ratio: 0.71;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .eventsSection {
+    .eventsSection {
+    margin-top: 40px;
+    max-width: 100%;
+  }
+
+  .eventsTitle {
+    font-size: 40px;
+  }
+
+  .eventsGrid {
+    flex-direction: column;
+  }
+
+  .eventImage {
+    margin-top: 40px;
+  }
+}
+}

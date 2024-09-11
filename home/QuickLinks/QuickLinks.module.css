@@ -1,0 +1,34 @@
+.quickLinks {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  color: #160041;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font: 400 24px/1 Inter, sans-serif;
+}
+
+.linkItem {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.linkTitle {
+  border: 1px solid #6250a7;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.linkIcon {
+  aspect-ratio: 1.27;
+  object-fit: contain;
+  object-position: center;
+  width: 33px;
+}
+
+@media (max-width: 991px) {
+  .quickLinks {
+    flex-direction: column;
+  }
+}
