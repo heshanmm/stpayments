@@ -5,17 +5,17 @@ import styles from './FeatureSection.module.css';
 function FeatureSection() {
   const features = [
     {
-      title: "Theoretical knowledge",
+      title: "For Schools",
       description: "Duis aute irure dolor in repreh in voluptate velit esse cillum dolore eu fugiat nulla",
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/62d4d20e894da1860875575c3862a4949d9c2cd75dbbaa4f09f0e7bb276af34e?placeholderIfAbsent=true&apiKey=170b590e187e4beabe3f2ef7100234b5"
     },
     {
-      title: "Practical knowledge",
+      title: "For Institutes",
       description: "Duis aute irure dolor in repreh in voluptate velit esse cillum dolore eu fugiat nulla",
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/62d4d20e894da1860875575c3862a4949d9c2cd75dbbaa4f09f0e7bb276af34e?placeholderIfAbsent=true&apiKey=170b590e187e4beabe3f2ef7100234b5"
     },
     {
-      title: "International certificate",
+      title: "For Universities",
       description: "Duis aute irure dolor in repreh in voluptate velit esse cillum dolore eu fugiat nulla",
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/62d4d20e894da1860875575c3862a4949d9c2cd75dbbaa4f09f0e7bb276af34e?placeholderIfAbsent=true&apiKey=170b590e187e4beabe3f2ef7100234b5"
     },
